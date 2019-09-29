@@ -1,0 +1,75 @@
+# -*- coding: latin1 -*-
+
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib.pyplot as plt
+import numpy as np
+#from matplotlib import cm
+
+def tracerhyper(L):
+    global T
+    n = len(L)
+    X = [0]*(n+1)
+    Y = [0]*(n+1)
+    Z = [0]*(n+1)
+    for i in range(n):
+        print T
+        X[i],Y[i],Z[i] = T[L[i]]
+    X[n],Y[n],Z[n] = T[L[0]]
+    ax.plot(X, Y, Z)
+
+def tracerhyper2(L):
+    global T
+    n = len(L)
+    #X = [0]*(n*n+n)/2
+    #Y = [0]*(n*n+n)/2
+    #Z = [0]*(n*n+n)/2
+    X = []
+    Y = []
+    Z = []
+    for i in range(n):
+        for j in range(i,n):
+            X.append(T[L[j]])
+            Y.append(T[L[j]])
+            Y.append(T[L[j]])
+        print T
+        X[i],Y[i],Z[i] = T[L[i]]
+    X[n],Y[n],Z[n] = T[L[0]]
+    ax.plot(X, Y, Z)
+
+
+nom = input("Nom du fichier : ") 
+fichier = open(nom, "r")
+contenu = fichier.read()
+fichier.close()
+
+contenu = contenu.split("\n")
+contenu = [l.split("\t") for l in contenu]
+
+d=int(contenu[0][0])
+n=int(contenu[0][1])
+del contenu[0]
+#T = [[float(contenu[i][j]) for i in range(n)] for j in range(d)]
+T = [[float(contenu[i][j]) for j in range(d)] for i in range(n)]
+a = int(contenu[n][0])
+#del contenu[n]
+#H = [[int(contenu[i][j]) for j in range(1,int(contenu[i][0])+1)] for i in range(n,n+a)]
+del contenu[0:n+1]
+H = [[int(contenu[i][j]) for j in range(1,int(contenu[i][0])+1)] for i in range(a)]
+
+
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+
+for L in H:
+    tracerhyper(L)
+
+m = np.array(T).min()
+M = np.array(T).max()
+
+ax.set_xlim(m, M)
+ax.set_ylim(m, M)
+ax.set_zlim(m, M)
+
+plt.show()
+

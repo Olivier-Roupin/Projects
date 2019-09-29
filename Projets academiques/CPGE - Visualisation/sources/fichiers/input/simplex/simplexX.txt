@@ -1,0 +1,1 @@
+Un simplex de dimension X, les X-1 premiers vecteurs sont ceux de la base canonique de R^X et le dernier complète le simplex

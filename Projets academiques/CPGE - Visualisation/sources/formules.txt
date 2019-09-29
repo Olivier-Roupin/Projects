@@ -1,0 +1,11 @@
+|.| : norme 2
+
+D(AB) = |AB|
+
+S(ABC) = 1/2*sqrt(|AB|²*|AC|²-(AB|AC)²)
+
+V(ABCD) = 1/6*sqrt(|AB|²*|AC|²*|AD|²
+		-|AD|²*(AB|AC)²
+		-|AC|²*(AB|AD)²
+		-|AB|²*(AC|AD)²
+		+2*(AB|AC)*(AB|AD)*(AC|AD))

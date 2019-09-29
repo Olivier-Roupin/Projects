@@ -1,0 +1,3 @@
+﻿  CAPI_GLE.cpp
+  main.cpp
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'C:\Users\utilisateur\Downloads\ovr_sdk_win_1.30.0_public\LibOVR/Lib/Windows/Win32/Debug/VS2017/LibOVR.lib'

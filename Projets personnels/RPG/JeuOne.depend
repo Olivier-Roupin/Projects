@@ -1,0 +1,2321 @@
+# depslib dependency file v1.0
+1399219781 source:c:\users\olivier\documents\programmation\braincandy\jeuone\main.cpp
+	<iostream>
+	<Partie.h>
+	"Ecran_titre.h"
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<OBJETS.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<Capacite.h>
+	<CAPACITES.h>
+	<CAPACITES_D.h>
+	<HEROSS.h>
+	<HEROSS_D.h>
+	<GroupeMonstres.h>
+	<GROUPESMONSTRES.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS.h>
+	<OBJETS_D.h>
+
+1456159330 h>
+
+1399219726 c:\users\olivier\documents\programmation\braincandy\jeuone\include\objet.h
+	<string>
+
+1460915287 
+
+1393716589 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\objet.cpp
+	"Objet.h"
+
+1392408568 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\equipable.cpp
+	"Equipable.h"
+
+1470141925 .h"
+
+1392408568 c:\users\olivier\documents\programmation\braincandy\jeuone\include\equipable.h
+	<Objet.h>
+
+1392406357 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\utilisable.cpp
+	"Utilisable.h"
+
+1376156342 e.h"
+
+1392406248 c:\users\olivier\documents\programmation\braincandy\jeuone\include\utilisable.h
+	<Objet.h>
+
+1392407372 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\arme.cpp
+	"Arme.h"
+
+1392551615 c:\users\olivier\documents\programmation\braincandy\jeuone\include\arme.h
+	<Equipable.h>
+
+1470135476 .h>
+
+1392409686 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\accessoire.cpp
+	"Accessoire.h"
+
+1392409813 c:\users\olivier\documents\programmation\braincandy\jeuone\include\accessoire.h
+	<Equipable.h>
+
+1392409147 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\armure.cpp
+	"Armure.h"
+
+1392409813 c:\users\olivier\documents\programmation\braincandy\jeuone\include\armure.h
+	<Equipable.h>
+
+1392409480 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\casque.cpp
+	"Casque.h"
+
+1392409813 c:\users\olivier\documents\programmation\braincandy\jeuone\include\casque.h
+	<Equipable.h>
+
+1394563971 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\personnage.cpp
+	"Personnage.h"
+
+1394563929 c:\users\olivier\documents\programmation\braincandy\jeuone\include\personnage.h
+	<string>
+
+1392411752 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\bouclier.cpp
+	"Bouclier.h"
+
+1469628935 h"
+
+1392551152 c:\users\olivier\documents\programmation\braincandy\jeuone\include\bouclier.h
+	<Equipable.h>
+
+1394361289 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\heros.cpp
+	"Heros.h"
+
+1394361289 c:\users\olivier\documents\programmation\braincandy\jeuone\include\heros.h
+	<Personnage.h>
+	<Equipable.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+
+1394361289 e.h>
+
+1393797662 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\groupeobjets.cpp
+	"GroupeObjets.h"
+
+1469733241 ets.h"
+
+1393719758 c:\users\olivier\documents\programmation\braincandy\jeuone\include\groupeobjets.h
+	<Objet.h>
+
+1394298425 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\inventaire.cpp
+	"Inventaire.h"
+
+1393715502 c:\users\olivier\documents\programmation\braincandy\jeuone\include\inventaire.h
+	<GroupeObjets.h>
+
+1469733482 ets.h>
+
+1393715961 c:\users\olivier\documents\programmation\braincandy\jeuone\include\objets.h
+	<Objet.h>
+
+1393716170 c:\users\olivier\documents\programmation\braincandy\jeuone\include\objets_d.h
+	<OBJETS.h>
+
+1394301345 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\equipe.cpp
+	"Equipe.h"
+
+1394301404 c:\users\olivier\documents\programmation\braincandy\jeuone\include\equipe.h
+	<Heros.h>
+
+1399217491 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\groupemonstres.cpp
+	<iostream>
+	"GroupeMonstres.h"
+
+1469889406 stres.h"
+
+1399217463 c:\users\olivier\documents\programmation\braincandy\jeuone\include\groupemonstres.h
+	<Monstre.h>
+
+1459871148 >
+
+1394563929 c:\users\olivier\documents\programmation\braincandy\jeuone\include\monstre.h
+	<Personnage.h>
+	<GroupeObjets.h>
+
+1394564202 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\monstre.cpp
+	"Monstre.h"
+
+1457902687 "
+
+1398613188 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\partie.cpp
+	"Partie.h"
+
+1398613188 c:\users\olivier\documents\programmation\braincandy\jeuone\include\partie.h
+	<Equipe.h>
+	<Inventaire.h>
+	<GroupeMonstres.h>
+
+1470142843 stres.h>
+
+1399217695 c:\users\olivier\documents\programmation\braincandy\jeuone\include\groupesmonstres.h
+	<MONSTRES.h>
+
+1394486139 c:\users\olivier\documents\programmation\braincandy\jeuone\include\monstres.h
+
+1398603959 c:\users\olivier\documents\programmation\braincandy\jeuone\include\groupesmonstres_d.h
+	<GROUPESMONSTRES.h>
+	<MONSTRES_D.h>
+
+1451564947 D.h>
+
+1394368121 c:\users\olivier\documents\programmation\braincandy\jeuone\include\monstres_d.h
+	<MONSTRES.h>
+
+1398604866 c:\users\olivier\documents\programmation\braincandy\jeuone\include\heross.h
+
+1398605006 c:\users\olivier\documents\programmation\braincandy\jeuone\include\heross_d.h
+	<HEROSS.h>
+
+1398615505 source:c:\users\olivier\documents\programmation\braincandy\jeuone\ecran_titre.cpp
+	"Ecran_titre.h"
+
+1469889486 re.h"
+
+1398615505 c:\users\olivier\documents\programmation\braincandy\jeuone\ecran_titre.h
+	<iostream>
+	<Partie.h>
+
+1399217308 source:c:\users\olivier\documents\programmation\braincandy\jeuone\src\capacite.cpp
+	"Capacite.h"
+
+1399217308 c:\users\olivier\documents\programmation\braincandy\jeuone\include\capacite.h
+	<string>
+
+1399217153 c:\users\olivier\documents\programmation\braincandy\jeuone\include\capacites.h
+
+1399216739 c:\users\olivier\documents\programmation\braincandy\jeuone\include\capacites_d.h
+	<CAPACITES.h>
+
+1424470619 source:c:\users\olivier\documents\jeux\ecran_titre.cpp
+	"Ecran_titre.h"
+
+1424470585 c:\users\olivier\documents\jeux\ecran_titre.h
+	<Partie.h>
+	"controles.h"
+
+1509883337 c:\users\olivier\documents\jeux\include\partie.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<ctime>
+	<Input.h>
+	<Carte.h>
+	<Equipe.h>
+	<Inventaire.h>
+	<GroupeMonstres.h>
+
+1506945760 c:\users\olivier\documents\jeux\include\equipe.h
+	<Heros.h>
+
+1509724162 c:\users\olivier\documents\jeux\include\heros.h
+	<Personnage.h>
+	<Equipable.h>
+
+1512032570 c:\users\olivier\documents\jeux\include\personnage.h
+	<Capacite.h>
+	<Objet.h>
+
+1469627858 c:\users\olivier\documents\jeux\include\equipable.h
+	<Objet.h>
+
+1469628105 c:\users\olivier\documents\jeux\include\objet.h
+	<string>
+
+1424364441 c:\users\olivier\documents\jeux\include\armure.h
+	<Equipable.h>
+
+1424364441 c:\users\olivier\documents\jeux\include\casque.h
+	<Equipable.h>
+
+1424364441 c:\users\olivier\documents\jeux\include\accessoire.h
+	<Equipable.h>
+
+1476279307 c:\users\olivier\documents\jeux\include\inventaire.h
+	<GroupeObjets.h>
+
+1469729720 c:\users\olivier\documents\jeux\include\groupeobjets.h
+	<Objet.h>
+
+1506945760 c:\users\olivier\documents\jeux\include\groupemonstres.h
+	<Monstre.h>
+
+1499952326 c:\users\olivier\documents\jeux\include\monstre.h
+	<Personnage.h>
+	<GroupeObjets.h>
+	<Script.h>
+
+1509722945 source:c:\users\olivier\documents\jeux\main.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Ecran_titre.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<EFFETS.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<EFFETS_D.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<OBJETS.h>
+	<GRAPHISMES.h>
+	<Script.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	<Carte.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<CARTES.h>
+	<CARTES_D.h>
+	<OBJETS_D.h>
+	<Capacite.h>
+	<OBJETS.h>
+	<CAPACITES.h>
+	<CAPACITES_D.h>
+	<OBJETS_D.h>
+	<HEROSS.h>
+	<HEROSS_D.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<GROUPESMONSTRES.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<OBJETS.h>
+	<OBJETS_D.h>
+
+1499952326 c:\users\olivier\documents\jeux\include\heross.h
+
+1487522150 c:\users\olivier\documents\jeux\include\groupesmonstres.h
+	<MONSTRES.h>
+
+1499953015 c:\users\olivier\documents\jeux\include\monstres.h
+	<SCRIPTS.h>
+
+1499952326 c:\users\olivier\documents\jeux\include\objets.h
+
+1424816338 c:\users\olivier\documents\jeux\include\heross_d.h
+	<HEROSS.h>
+
+1451561347 c:\users\olivier\documents\jeux\include\groupesmonstres_d.h
+	<GROUPESMONSTRES.h>
+	<MONSTRES_D.h>
+
+1451561347 c:\users\olivier\documents\jeux\include\monstres_d.h
+	<MONSTRES.h>
+
+1420489819 c:\users\olivier\documents\jeux\include\objets_d.h
+	<OBJETS.h>
+
+1469964625 c:\users\olivier\documents\jeux\include\capacite.h
+	<string>
+	<Effet.h>
+
+1499953180 c:\users\olivier\documents\jeux\include\capacites.h
+
+1451561347 c:\users\olivier\documents\jeux\include\capacites_d.h
+	<CAPACITES.h>
+
+1424364441 source:c:\users\olivier\documents\jeux\src\accessoire.cpp
+	"Accessoire.h"
+
+1424363441 source:c:\users\olivier\documents\jeux\src\arme.cpp
+	"Arme.h"
+
+1424364441 c:\users\olivier\documents\jeux\include\arme.h
+	<Equipable.h>
+
+1424364441 source:c:\users\olivier\documents\jeux\src\armure.cpp
+	"Armure.h"
+
+1424364441 source:c:\users\olivier\documents\jeux\src\bouclier.cpp
+	"Bouclier.h"
+
+1424364441 c:\users\olivier\documents\jeux\include\bouclier.h
+	<Equipable.h>
+
+1469625335 source:c:\users\olivier\documents\jeux\src\capacite.cpp
+	"Capacite.h"
+
+1424364441 source:c:\users\olivier\documents\jeux\src\casque.cpp
+	"Casque.h"
+
+1469627858 source:c:\users\olivier\documents\jeux\src\equipable.cpp
+	"Equipable.h"
+
+1506945901 source:c:\users\olivier\documents\jeux\src\equipe.cpp
+	"Equipe.h"
+
+1506945760 source:c:\users\olivier\documents\jeux\src\groupemonstres.cpp
+	"GroupeMonstres.h"
+
+1469729641 source:c:\users\olivier\documents\jeux\src\groupeobjets.cpp
+	"GroupeObjets.h"
+
+1509724187 source:c:\users\olivier\documents\jeux\src\heros.cpp
+	"Heros.h"
+
+1476279372 source:c:\users\olivier\documents\jeux\src\inventaire.cpp
+	"Inventaire.h"
+
+1469966236 source:c:\users\olivier\documents\jeux\src\monstre.cpp
+	"Monstre.h"
+
+1469628105 source:c:\users\olivier\documents\jeux\src\objet.cpp
+	"Objet.h"
+
+1509883403 source:c:\users\olivier\documents\jeux\src\partie.cpp
+	"Partie.h"
+
+1509904424 source:c:\users\olivier\documents\jeux\src\personnage.cpp
+	"Personnage.h"
+
+1469629003 source:c:\users\olivier\documents\jeux\src\utilisable.cpp
+	"Utilisable.h"
+
+1469628977 c:\users\olivier\documents\jeux\include\utilisable.h
+	<Objet.h>
+	<Effet.h>
+
+1424471846 source:c:\users\olivier\documents\jeux\menu.cpp
+	"Menu.h"
+
+1424471877 c:\users\olivier\documents\jeux\menu.h
+	"Menu_Etat.h"
+	"Menu_Competences.h"
+	"Menu_Configuration.h"
+	"Menu_Sauver.h"
+
+1469647579 er.h"
+
+1469885887 source:c:\users\olivier\documents\jeux\src\tileset.cpp
+	"Tileset.h"
+
+1469885887 c:\users\olivier\documents\jeux\include\tileset.h
+	<string>
+
+1507385943 source:c:\users\olivier\documents\jeux\src\carte.cpp
+	"Carte.h"
+
+1499847700 c:\users\olivier\documents\jeux\include\carte.h
+	<Tileset.h>
+	<Evenement.h>
+	<GroupeMonstres.h>
+
+1499848200 c:\users\olivier\documents\jeux\include\cartes.h
+	<TILESETS.h>
+	<EVENEMENTS.h>
+
+1469970922 S.h>
+
+1499951220 c:\users\olivier\documents\jeux\include\tilesets.h
+
+1451154411 c:\users\olivier\documents\jeux\include\cartes_d.h
+	<CARTES.h>
+	<TILESETS_D.h>
+	<EVENEMENTS_D.h>
+
+1451158011 S_D.h>
+
+1451561347 c:\users\olivier\documents\jeux\include\tilesets_d.h
+	<TILESETS.h>
+
+1424533556 c:\users\olivier\documents\jeux\controles.h
+	<conio.h>
+	<iostream>
+
+1424470653 source:c:\users\olivier\documents\jeux\controles.cpp
+	"controles.h"
+
+1424465270 source:c:\users\olivier\documents\jeux\combat.cpp
+	"Combat.h"
+
+1424465261 c:\users\olivier\documents\jeux\combat.h
+	<Partie.h>
+	"controles.h"
+
+1424465027 source:c:\users\olivier\documents\jeux\terrain.cpp
+	"Terrain.h"
+
+1424465027 c:\users\olivier\documents\jeux\terrain.h
+	"Menu.h"
+	"Combat.h"
+
+1424691846 c:\users\olivier\documents\jeux\menu_objets.h
+	<Partie.h>
+	"controles.h"
+
+1424691737 source:c:\users\olivier\documents\jeux\menu_objets.cpp
+	"Menu_Objets.h"
+
+1460915615 ts.h"
+
+1424564639 c:\users\olivier\documents\jeux\menu_equipement.h
+	"Menu_Objets.h"
+	"controles.h"
+
+1424440075 c:\users\olivier\documents\jeux\menu_competences.h
+	<Partie.h>
+
+1424565316 source:c:\users\olivier\documents\jeux\menu_equipement.cpp
+	"Menu_Equipement.h"
+
+1459871704 pement.h"
+
+1424471877 c:\users\olivier\documents\jeux\menu_etat.h
+	"Menu_Equipement.h"
+	"controles.h"
+
+1424440075 source:c:\users\olivier\documents\jeux\menu_competences.cpp
+	"Menu_Competences.h"
+
+1469647556 etences.h"
+
+1424440755 c:\users\olivier\documents\jeux\menu_configuration.h
+	<Partie.h>
+
+1424533836 source:c:\users\olivier\documents\jeux\menu_etat.cpp
+	"Menu_Etat.h"
+
+1424473060 c:\users\olivier\documents\jeux\menu_sauver.h
+	<Partie.h>
+	"controles.h"
+
+1424440755 source:c:\users\olivier\documents\jeux\menu_configuration.cpp
+	"Menu_Configuration.h"
+
+1424444355 iguration.h"
+
+1424473135 source:c:\users\olivier\documents\jeux\menu_sauver.cpp
+	"Menu_Sauver.h"
+
+1503410317 c:\users\olivier\documents\jeux\include\ecran_titre.h
+	<Partie.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1424533556 c:\users\olivier\documents\jeux\include\controles.h
+	<conio.h>
+	<iostream>
+
+1509721261 c:\users\olivier\documents\jeux\include\terrain.h
+	<Menu.h>
+	<Combat.h>
+
+1440865016 c:\users\olivier\documents\jeux\include\menu.h
+	<Menu_Etat.h>
+	<Menu_Competences.h>
+	<Menu_Configuration.h>
+	<Menu_Sauver.h>
+
+1440868616 er.h>
+
+1440880025 c:\users\olivier\documents\jeux\include\menu_etat.h
+	<Menu_Equipement.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1509879960 c:\users\olivier\documents\jeux\include\menu_equipement.h
+	<Menu_Objets.h>
+
+1440940442 ts.h>
+
+1509879960 c:\users\olivier\documents\jeux\include\menu_objets.h
+	<Partie.h>
+	<Utilisable.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1440936842 c:\users\olivier\documents\jeux\include\menu_competences.h
+	<Partie.h>
+	<Menu_Objets.h>
+
+1424440755 c:\users\olivier\documents\jeux\include\menu_configuration.h
+	<Partie.h>
+
+1503409450 c:\users\olivier\documents\jeux\include\menu_sauver.h
+	<Partie.h>
+	"controles.h"
+	<moteur_graphique.h>
+	<Input.h>
+
+1509722945 c:\users\olivier\documents\jeux\include\combat.h
+	<Game_Over.h>
+	<Utilisable.h>
+	<controles.h>
+
+1432476051 aphique.h>
+
+1509904435 source:c:\users\olivier\documents\jeux\src\combat.cpp
+	"Combat.h"
+
+1424470653 source:c:\users\olivier\documents\jeux\src\controles.cpp
+	"controles.h"
+
+1509719500 source:c:\users\olivier\documents\jeux\src\ecran_titre.cpp
+	"Ecran_titre.h"
+
+1487170358 source:c:\users\olivier\documents\jeux\src\menu.cpp
+	"Menu.h"
+
+1509900989 source:c:\users\olivier\documents\jeux\src\menu_competences.cpp
+	"Menu_Competences.h"
+
+1424440755 source:c:\users\olivier\documents\jeux\src\menu_configuration.cpp
+	"Menu_Configuration.h"
+
+1509879960 source:c:\users\olivier\documents\jeux\src\menu_equipement.cpp
+	"Menu_Equipement.h"
+
+1482845436 source:c:\users\olivier\documents\jeux\src\menu_etat.cpp
+	"Menu_Etat.h"
+
+1509900865 source:c:\users\olivier\documents\jeux\src\menu_objets.cpp
+	"Menu_Objets.h"
+
+1503410590 source:c:\users\olivier\documents\jeux\src\menu_sauver.cpp
+	"Menu_Sauver.h"
+
+1509721261 source:c:\users\olivier\documents\jeux\src\terrain.cpp
+	"Terrain.h"
+
+1394560245 source:c:\users\olivier\documents\jeux\src\test.cpp
+	"test.h"
+
+1394560245 c:\users\olivier\documents\jeux\include\test.h
+
+1499953004 source:c:\users\olivier\documents\jeux\src\effet.cpp
+	"Effet.h"
+
+1499953004 c:\users\olivier\documents\jeux\include\effet.h
+	<Script.h>
+
+1427981227 c:\users\olivier\documents\jeux\include\groupecapacites.h
+	<Capacite.h>
+
+1427981249 source:c:\users\olivier\documents\jeux\src\groupecapacites.cpp
+	"GroupeCapacites.h"
+
+1427984849 acites.h"
+
+1459866288 c:\users\olivier\documents\jeux\include\moteur_graphique.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<BlocAnime.h>
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1376276358 orm.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\close_code.h
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1376276358 ode.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1376276358 c.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272758 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152742 c:\program files (x86)\codeblocks\sdl2-2.0.0\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1432470123 source:c:\users\olivier\documents\jeux\src\moteur_graphique.cpp
+	"moteur_graphique.h"
+	<iostream>
+
+1456155730 c:\users\olivier\documents\jeux\include\input.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+
+1456155730 source:c:\users\olivier\documents\jeux\src\input.cpp
+	"Input.h"
+
+1432215548 source:c:\users\olivier\documents\jeux\src\elementgraphique.cpp
+	"ElementGraphique.h"
+
+1432219148 aphique.h"
+
+1432215673 c:\users\olivier\documents\jeux\include\elementgraphique.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1432219273 image.h>
+
+1432216177 source:c:\users\olivier\documents\jeux\src\boitetexte.cpp
+	"BoiteTexte.h"
+	<iostream>
+
+1431874857 c:\users\olivier\documents\jeux\include\boitetexte.h
+	<string>
+	<ElementGraphique.h>
+	<POLICE.h>
+
+1431876411 c:\users\olivier\documents\jeux\include\police.h
+
+1432375537 c:\users\olivier\documents\jeux\include\blocanime.h
+	<BlocGraphique.h>
+
+1432379137 ique.h>
+
+1432647958 c:\users\olivier\documents\jeux\include\blocgraphique.h
+	<ElementGraphique.h>
+
+1432375536 source:c:\users\olivier\documents\jeux\src\blocanime.cpp
+	"BlocAnime.h"
+
+1432307670 source:c:\users\olivier\documents\jeux\src\blocgraphique.cpp
+	"BlocGraphique.h"
+
+1432311270 ique.h"
+
+1432472451 c:\users\olivier\documents\jeux\include\graphismes.h
+	<moteur_graphique.h>
+
+1439304628 c:\users\olivier\documents\jeux\include\effetpersonnage.h
+	<Effet.h>
+
+1459875006 source:c:\users\olivier\documents\jeux\src\effetpersonnage.cpp
+	"EffetPersonnage.h"
+
+1459875006 onnage.h"
+
+1460905230 c:\users\olivier\documents\jeux\include\script.h
+	<string>
+	<iostream>
+	<fstream>
+
+1470054001 source:c:\users\olivier\documents\jeux\src\script.cpp
+	"Script.h"
+
+1487161362 c:\users\olivier\documents\jeux\include\evenement.h
+	<Script.h>
+	<string>
+
+1499952326 c:\users\olivier\documents\jeux\include\evenements.h
+
+1451561347 c:\users\olivier\documents\jeux\include\evenements_d.h
+	<EVENEMENTS.h>
+	<SCRIPTS_D.h>
+
+1487170358 source:c:\users\olivier\documents\jeux\src\evenement.cpp
+	"Evenement.h"
+
+1509902648 c:\users\olivier\documents\jeux\include\scripts.h
+
+1451561347 c:\users\olivier\documents\jeux\include\scripts_d.h
+	<SCRIPTS.h>
+
+1509904476 source:c:\users\olivier\documents\jeux\bdd\fonctions.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1487183742 c:\users\olivier\documents\jeux\include\fonctions.h
+
+1457899087 source:c:\users\olivier\documents\jeux\src\magasin.cpp
+	"Magasin.h"
+
+1469880979 c:\users\olivier\documents\jeux\include\magasin.h
+	<Objet.h>
+
+1482845436 source:c:\users\olivier\documents\jeux\src\menu_magasin.cpp
+	"Menu_Magasin.h"
+
+1459871148 sin.h"
+
+1459867548 c:\users\olivier\documents\jeux\include\menu_magasin.h
+	<Menu_Objets.h>
+	<Magasin.h>
+
+1499953004 c:\users\olivier\documents\jeux\include\effets.h
+
+1460911687 c:\users\olivier\documents\jeux\include\effets_d.h
+	<EFFETS.h>
+
+1470155823 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/bdd/fonctions.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1469631458 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Equipable.h
+	<Objet.h>
+
+1469631705 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Objet.h
+	<string>
+
+1469632577 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Utilisable.h
+	<Objet.h>
+	<Effet.h>
+
+1469968301 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Effet.h
+	<Script.h>
+
+1460908830 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Script.h
+	<string>
+	<iostream>
+	<fstream>
+
+1470158162 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Terrain.h
+	<Menu.h>
+	<Combat.h>
+
+1440868616 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu.h
+	<Menu_Etat.h>
+	<Menu_Competences.h>
+	<Menu_Configuration.h>
+	<Menu_Sauver.h>
+
+1440883625 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Etat.h
+	<Menu_Equipement.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1440881308 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Equipement.h
+	<Menu_Objets.h>
+
+1450708846 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Objets.h
+	<Partie.h>
+	<Utilisable.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1470142843 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Partie.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<Input.h>
+	<Carte.h>
+	<Equipe.h>
+	<Inventaire.h>
+	<GroupeMonstres.h>
+
+1456155730 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Input.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+
+1469968225 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Carte.h
+	<Tileset.h>
+	<Evenement.h>
+
+1469889487 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Tileset.h
+	<string>
+
+1470141925 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Evenement.h
+	<Script.h>
+	<string>
+
+1424387365 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Equipe.h
+	<Heros.h>
+
+1469969476 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Heros.h
+	<Personnage.h>
+	<Equipable.h>
+
+1469702096 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Personnage.h
+	<Capacite.h>
+
+1469968225 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Capacite.h
+	<string>
+	<Effet.h>
+
+1469733482 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Inventaire.h
+	<GroupeObjets.h>
+
+1469733320 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GroupeObjets.h
+	<Objet.h>
+
+1469968679 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GroupeMonstres.h
+	<Monstre.h>
+
+1469970021 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Monstre.h
+	<Personnage.h>
+	<GroupeObjets.h>
+	<Script.h>
+
+1424533556 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/controles.h
+	<conio.h>
+	<iostream>
+
+1459869888 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/moteur_graphique.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<BlocAnime.h>
+
+1432379137 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/BlocAnime.h
+	<BlocGraphique.h>
+
+1432651558 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/BlocGraphique.h
+	<ElementGraphique.h>
+
+1432219273 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/ElementGraphique.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1440940442 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Competences.h
+	<Partie.h>
+	<Menu_Objets.h>
+
+1424440755 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Configuration.h
+	<Partie.h>
+
+1440883625 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Sauver.h
+	<Partie.h>
+	"controles.h"
+	<moteur_graphique.h>
+	<Input.h>
+
+1470156505 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Combat.h
+	<Partie.h>
+	<Utilisable.h>
+	<controles.h>
+	<moteur_graphique.h>
+
+1469888201 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/main.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Ecran_titre.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<CARTES.h>
+	<GROUPESMONSTRES.h>
+	<EFFETS.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<EFFETS_D.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<OBJETS.h>
+	<GRAPHISMES.h>
+	<Script.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	<Carte.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<CARTES.h>
+	<CARTES_D.h>
+	<OBJETS_D.h>
+	<Capacite.h>
+	<OBJETS.h>
+	<CAPACITES.h>
+	<CAPACITES_D.h>
+	<OBJETS_D.h>
+	<HEROSS.h>
+	<HEROSS_D.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<GROUPESMONSTRES.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<OBJETS.h>
+	<OBJETS_D.h>
+
+1438794992 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Ecran_titre.h
+	<Partie.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1469890649 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/OBJETS.h
+
+1469969549 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/HEROSS.h
+
+1469970922 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/CARTES.h
+	<TILESETS.h>
+	<EVENEMENTS.h>
+
+1424816317 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/TILESETS.h
+
+1470141925 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/EVENEMENTS.h
+	<SCRIPTS.h>
+
+1470135476 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/SCRIPTS.h
+	<FONCTIONS.h>
+
+1470155823 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/FONCTIONS.h
+
+1469731821 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GROUPESMONSTRES.h
+	<MONSTRES.h>
+
+1469969836 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/MONSTRES.h
+
+1469888924 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/EFFETS.h
+
+1469899483 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/CAPACITES.h
+
+1432476051 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GRAPHISMES.h
+	<moteur_graphique.h>
+
+1424816338 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/HEROSS_D.h
+	<HEROSS.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GROUPESMONSTRES_D.h
+	<GROUPESMONSTRES.h>
+	<MONSTRES_D.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/MONSTRES_D.h
+	<MONSTRES.h>
+
+1420489819 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/OBJETS_D.h
+	<OBJETS.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/CAPACITES_D.h
+	<CAPACITES.h>
+
+1460915287 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/EFFETS_D.h
+	<EFFETS.h>
+
+1451154411 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/CARTES_D.h
+	<CARTES.h>
+	<TILESETS_D.h>
+	<EVENEMENTS_D.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/TILESETS_D.h
+	<TILESETS.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/EVENEMENTS_D.h
+	<EVENEMENTS.h>
+	<SCRIPTS_D.h>
+
+1451561347 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/SCRIPTS_D.h
+	<SCRIPTS.h>
+
+1432379136 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/BlocAnime.cpp
+	"BlocAnime.h"
+
+1432311270 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/BlocGraphique.cpp
+	"BlocGraphique.h"
+
+1432219777 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/BoiteTexte.cpp
+	"BoiteTexte.h"
+	<iostream>
+
+1431878457 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/BoiteTexte.h
+	<string>
+	<ElementGraphique.h>
+	<POLICE.h>
+
+1431880011 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/POLICE.h
+
+1469628935 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Capacite.cpp
+	"Capacite.h"
+
+1470057477 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Carte.cpp
+	"Carte.h"
+
+1470156505 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Combat.cpp
+	"Combat.h"
+
+1424470653 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/controles.cpp
+	"controles.h"
+
+1469889486 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Ecran_titre.cpp
+	"Ecran_titre.h"
+
+1469628935 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Effet.cpp
+	"Effet.h"
+
+1432219148 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/ElementGraphique.cpp
+	"ElementGraphique.h"
+
+1469631458 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Equipable.cpp
+	"Equipable.h"
+
+1469702299 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Equipe.cpp
+	"Equipe.h"
+
+1470141925 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Evenement.cpp
+	"Evenement.h"
+
+1427984849 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/GroupeCapacites.cpp
+	"GroupeCapacites.h"
+
+1427984827 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/GroupeCapacites.h
+	<Capacite.h>
+
+1469889406 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/GroupeMonstres.cpp
+	"GroupeMonstres.h"
+
+1469733241 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/GroupeObjets.cpp
+	"GroupeObjets.h"
+
+1469975858 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Heros.cpp
+	"Heros.h"
+
+1456155730 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Input.cpp
+	"Input.h"
+
+1469733482 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Inventaire.cpp
+	"Inventaire.h"
+
+1457899087 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Magasin.cpp
+	"Magasin.h"
+
+1469884579 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Magasin.h
+	<Objet.h>
+
+1469886367 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu.cpp
+	"Menu.h"
+
+1469647556 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Competences.cpp
+	"Menu_Competences.h"
+
+1424440755 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Configuration.cpp
+	"Menu_Configuration.h"
+
+1459871704 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Equipement.cpp
+	"Menu_Equipement.h"
+
+1469886367 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Etat.cpp
+	"Menu_Etat.h"
+
+1459871148 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Magasin.cpp
+	"Menu_Magasin.h"
+
+1459871148 /media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/include/Menu_Magasin.h
+	<Menu_Objets.h>
+	<Magasin.h>
+
+1460915615 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Objets.cpp
+	"Menu_Objets.h"
+
+1469647579 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Menu_Sauver.cpp
+	"Menu_Sauver.h"
+
+1469969836 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Monstre.cpp
+	"Monstre.h"
+
+1432473723 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/moteur_graphique.cpp
+	"moteur_graphique.h"
+	<iostream>
+
+1469631705 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Objet.cpp
+	"Objet.h"
+
+1470134003 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Partie.cpp
+	"Partie.h"
+
+1469972999 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Personnage.cpp
+	"Personnage.h"
+
+1470057601 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Script.cpp
+	"Script.h"
+
+1471012972 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Terrain.cpp
+	"Terrain.h"
+
+1469889487 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Tileset.cpp
+	"Tileset.h"
+
+1469632603 source:/media/olivier/D0F6C356F6C33C0A/Users/Olivier/Documents/jeux/src/Utilisable.cpp
+	"Utilisable.h"
+
+1509721591 c:\users\olivier\documents\jeux\include\game_over.h
+	<moteur_graphique.h>
+	<Partie.h>
+
+1509719750 source:c:\users\olivier\documents\jeux\src\game_over.cpp
+	"Game_Over.h"
+
+1533305967 source:d:\jeux\bdd\fonctions.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+	<ctime>
+	<cstdlib>
+
+1523725713 d:\jeux\include\equipable.h
+	<Objet.h>
+
+1518034189 d:\jeux\include\objet.h
+	<string>
+
+1523396345 d:\jeux\include\utilisable.h
+	<Objet.h>
+	<Effet.h>
+
+1523901255 d:\jeux\include\effet.h
+	<Script.h>
+
+1521557577 d:\jeux\include\script.h
+
+1533124655 d:\jeux\include\terrain.h
+	<Menu.h>
+	<Combat.h>
+	<Menu_Magasin.h>
+
+1542025876 d:\jeux\include\menu.h
+	<Menu_Etat.h>
+	<Menu_Competences.h>
+	<Menu_Configuration.h>
+	<Menu_Sauver.h>
+
+1542027753 d:\jeux\include\menu_etat.h
+	<Menu_Equipement.h>
+
+1518971539 d:\jeux\include\menu_equipement.h
+	<Menu_Objets.h>
+
+1535966697 d:\jeux\include\menu_objets.h
+	<Partie.h>
+	<Utilisable.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1535966087 d:\jeux\include\partie.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<ctime>
+	<Input.h>
+	<Carte.h>
+	<Equipe.h>
+	<Inventaire.h>
+	<Utilisable.h>
+	<GroupeMonstres.h>
+	<Magasin.h>
+
+1456162930 d:\jeux\include\input.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\close_code.h
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790581 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508790582 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523381410 d:\jeux\include\carte.h
+	<Tileset.h>
+	<Evenement.h>
+	<GroupeMonstres.h>
+
+1469896686 d:\jeux\include\tileset.h
+	<string>
+
+1487168562 d:\jeux\include\evenement.h
+	<Script.h>
+	<string>
+
+1523385202 d:\jeux\include\groupemonstres.h
+	<Monstre.h>
+
+1533293285 d:\jeux\include\monstre.h
+	<Personnage.h>
+	<GroupeObjets.h>
+
+1533207987 d:\jeux\include\personnage.h
+	<Capacite.h>
+	<Objet.h>
+	<Alteration.h>
+	<cmath>
+	<ctime>
+	<cstdlib>
+
+1523396072 d:\jeux\include\capacite.h
+	<string>
+	<Effet.h>
+
+1523450597 d:\jeux\include\groupeobjets.h
+	<Objet.h>
+
+1506956560 d:\jeux\include\equipe.h
+	<Heros.h>
+
+1509731362 d:\jeux\include\heros.h
+	<Personnage.h>
+	<Equipable.h>
+
+1533476623 d:\jeux\include\inventaire.h
+	<GroupeObjets.h>
+
+1424540756 d:\jeux\include\controles.h
+	<conio.h>
+	<iostream>
+
+1459877088 d:\jeux\include\moteur_graphique.h
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<BlocAnime.h>
+
+1432386336 d:\jeux\include\blocanime.h
+	<BlocGraphique.h>
+
+1563177323 d:\jeux\include\blocgraphique.h
+	<ElementGraphique.h>
+	<string>
+	<POLICE.h>
+
+1541423880 d:\jeux\include\elementgraphique.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1518971049 d:\jeux\include\menu_competences.h
+	<Partie.h>
+	<Menu_Objets.h>
+
+1533301486 d:\jeux\include\menu_configuration.h
+	<Menu_Objets.h>
+
+1503420250 d:\jeux\include\menu_sauver.h
+	<Partie.h>
+	"controles.h"
+	<moteur_graphique.h>
+	<Input.h>
+
+1533474735 d:\jeux\include\combat.h
+	<Game_Over.h>
+	<Utilisable.h>
+	<controles.h>
+
+1509728790 d:\jeux\include\game_over.h
+	<moteur_graphique.h>
+	<Partie.h>
+
+1533303782 source:d:\jeux\main.cpp
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Ecran_titre.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+	<EFFETS.h>
+	<OBJETS.h>
+	<MAGASINS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<CAPACITES.h>
+	<ALTERATIONS.h>
+	<GRAPHISMES.h>
+	<ALTERATIONS_D.h>
+	<MAGASINS_D.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<EFFETS_D.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<EFFETS.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<EFFETS_D.h>
+	<OBJETS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+	<HEROSS_D.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<CAPACITES_D.h>
+	<OBJETS.h>
+	<GRAPHISMES.h>
+	<Script.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	<Carte.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<CARTES.h>
+	<CARTES_D.h>
+	<OBJETS_D.h>
+	<Capacite.h>
+	<OBJETS.h>
+	<CAPACITES.h>
+	<CAPACITES_D.h>
+	<OBJETS_D.h>
+	<HEROSS.h>
+	<HEROSS_D.h>
+	<Arme.h>
+	<Bouclier.h>
+	<Armure.h>
+	<Casque.h>
+	<Accessoire.h>
+	<Utilisable.h>
+	"Ecran_titre.h"
+	"Menu.h"
+	<OBJETS.h>
+	<GROUPESMONSTRES.h>
+	<GROUPESMONSTRES_D.h>
+	<OBJETS_D.h>
+	<OBJETS.h>
+	<OBJETS_D.h>
+
+1503421116 d:\jeux\include\ecran_titre.h
+	<Partie.h>
+	<controles.h>
+	<moteur_graphique.h>
+	<Input.h>
+
+1533287741 d:\jeux\include\objets.h
+
+1499963126 d:\jeux\include\heross.h
+
+1523383403 d:\jeux\include\groupesmonstres.h
+	<MONSTRES.h>
+
+1533287690 d:\jeux\include\monstres.h
+
+1533305963 d:\jeux\include\scripts.h
+
+1523381583 d:\jeux\include\cartes.h
+	<TILESETS.h>
+	<EVENEMENTS.h>
+
+1499962020 d:\jeux\include\tilesets.h
+
+1533042256 d:\jeux\include\evenements.h
+
+1533290811 d:\jeux\include\effets.h
+	<SCRIPTS.h>
+
+1499963980 d:\jeux\include\capacites.h
+
+1563177145 d:\jeux\include\graphismes.h
+	<moteur_graphique.h>
+
+1533127332 d:\jeux\include\heross_d.h
+	<HEROSS.h>
+
+1451568546 d:\jeux\include\groupesmonstres_d.h
+	<GROUPESMONSTRES.h>
+	<MONSTRES_D.h>
+
+1451568546 d:\jeux\include\monstres_d.h
+	<MONSTRES.h>
+
+1420497018 d:\jeux\include\objets_d.h
+	<OBJETS.h>
+
+1451568546 d:\jeux\include\capacites_d.h
+	<CAPACITES.h>
+
+1533198939 d:\jeux\include\effets_d.h
+	<EFFETS.h>
+
+1451161610 d:\jeux\include\cartes_d.h
+	<CARTES.h>
+	<TILESETS_D.h>
+	<EVENEMENTS_D.h>
+
+1451568546 d:\jeux\include\tilesets_d.h
+	<TILESETS.h>
+
+1451568546 d:\jeux\include\evenements_d.h
+	<EVENEMENTS.h>
+	<SCRIPTS_D.h>
+
+1451568546 d:\jeux\include\scripts_d.h
+	<SCRIPTS.h>
+
+1432386336 source:d:\jeux\src\blocanime.cpp
+	"BlocAnime.h"
+
+1563177896 source:d:\jeux\src\blocgraphique.cpp
+	"BlocGraphique.h"
+
+1533220651 source:d:\jeux\src\boitetexte.cpp
+	"BoiteTexte.h"
+	<iostream>
+
+1431885656 d:\jeux\include\boitetexte.h
+	<string>
+	<ElementGraphique.h>
+	<POLICE.h>
+
+1541427010 d:\jeux\include\police.h
+
+1523899016 source:d:\jeux\src\capacite.cpp
+	"Capacite.h"
+
+1523381410 source:d:\jeux\src\carte.cpp
+	"Carte.h"
+
+1533475185 source:d:\jeux\src\combat.cpp
+	"Combat.h"
+
+1424477852 source:d:\jeux\src\controles.cpp
+	"controles.h"
+
+1541427263 source:d:\jeux\src\ecran_titre.cpp
+	"Ecran_titre.h"
+
+1523901243 source:d:\jeux\src\effet.cpp
+	"Effet.h"
+
+1541423880 source:d:\jeux\src\elementgraphique.cpp
+	"ElementGraphique.h"
+
+1523725713 source:d:\jeux\src\equipable.cpp
+	"Equipable.h"
+
+1506956700 source:d:\jeux\src\equipe.cpp
+	"Equipe.h"
+
+1533042345 source:d:\jeux\src\evenement.cpp
+	"Evenement.h"
+
+1509726950 source:d:\jeux\src\game_over.cpp
+	"Game_Over.h"
+
+1427992048 source:d:\jeux\src\groupecapacites.cpp
+	"GroupeCapacites.h"
+
+1427992026 d:\jeux\include\groupecapacites.h
+	<Capacite.h>
+
+1533037215 source:d:\jeux\src\groupemonstres.cpp
+	"GroupeMonstres.h"
+
+1523450622 source:d:\jeux\src\groupeobjets.cpp
+	"GroupeObjets.h"
+
+1533473331 source:d:\jeux\src\heros.cpp
+	"Heros.h"
+
+1456162930 source:d:\jeux\src\input.cpp
+	"Input.h"
+
+1533197670 source:d:\jeux\src\inventaire.cpp
+	"Inventaire.h"
+
+1533112680 source:d:\jeux\src\magasin.cpp
+	"Magasin.h"
+
+1533112662 d:\jeux\include\magasin.h
+	<Objet.h>
+
+1542027753 source:d:\jeux\src\menu.cpp
+	"Menu.h"
+
+1541959120 source:d:\jeux\src\menu_competences.cpp
+	"Menu_Competences.h"
+
+1542032312 source:d:\jeux\src\menu_configuration.cpp
+	"Menu_Configuration.h"
+
+1541958207 source:d:\jeux\src\menu_equipement.cpp
+	"Menu_Equipement.h"
+
+1542029136 source:d:\jeux\src\menu_etat.cpp
+	"Menu_Etat.h"
+
+1533128281 source:d:\jeux\src\menu_magasin.cpp
+	"Menu_Magasin.h"
+
+1533121525 d:\jeux\include\menu_magasin.h
+	<Menu_Objets.h>
+	<Magasin.h>
+
+1535967029 source:d:\jeux\src\menu_objets.cpp
+	"Menu_Objets.h"
+
+1542034737 source:d:\jeux\src\menu_sauver.cpp
+	"Menu_Sauver.h"
+
+1533038431 source:d:\jeux\src\monstre.cpp
+	"Monstre.h"
+
+1432480922 source:d:\jeux\src\moteur_graphique.cpp
+	"moteur_graphique.h"
+	<iostream>
+
+1523450597 source:d:\jeux\src\objet.cpp
+	"Objet.h"
+
+1533303782 source:d:\jeux\src\partie.cpp
+	"Partie.h"
+
+1541508956 source:d:\jeux\src\personnage.cpp
+	"Personnage.h"
+
+1533197670 source:d:\jeux\src\script.cpp
+	"Script.h"
+
+1563175877 source:d:\jeux\src\terrain.cpp
+	"Terrain.h"
+
+1523380674 source:d:\jeux\src\tileset.cpp
+	"Tileset.h"
+
+1523899016 source:d:\jeux\src\utilisable.cpp
+	"Utilisable.h"
+
+1508776369 c:\program files (x86)\codeblocks\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1533127382 d:\jeux\include\magasins.h
+
+1533127332 d:\jeux\include\magasins_d.h
+	<MAGASINS.h>
+
+1533197670 d:\jeux\include\alteration.h
+	<Script.h>
+	<string>
+
+1533197670 source:d:\jeux\src\alteration.cpp
+	"Alteration.h"
+
+1533289445 d:\jeux\include\alterations.h
+
+1533198939 d:\jeux\include\alterations_d.h
+	<ALTERATIONS.h>
+
+1533289309 source:d:\jeux\src\initialiseurs.cpp
+	"initialiseurs.h"
+	<EFFETS.h>
+	<OBJETS.h>
+	<MAGASINS.h>
+	<HEROSS.h>
+	<GROUPESMONSTRES.h>
+	<CARTES.h>
+	<CAPACITES.h>
+	<GRAPHISMES.h>
+
+1533289117 d:\jeux\include\initialiseurs.h
+	<iostream>
+	<Equipable.h>
+	<Utilisable.h>
+	<Ecran_titre.h>
+	<Terrain.h>
+	<moteur_graphique.h>
+	<Input.h>
+

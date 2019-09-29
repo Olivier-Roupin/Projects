@@ -1,0 +1,5 @@
+4
+potion 20 100 soigne_les_blessures 0 2
+epee 11 80 tranche_les_membres 0 5 0 0 0 0 0 20 0 10 65 10
+casque 14 50 protege_la_tete 0 0 10 0 0 0 0 0 10 12 0 60
+Unnamed 20 0 _ 0 0

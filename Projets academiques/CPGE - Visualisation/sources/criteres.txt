@@ -1,0 +1,20 @@
+Critères :
+
+on note:
+px au lieu de phi(x)
+d(x,y) : distance entre x et y
+s(x,y,z) : surface décrite par x,y,z
+v(x,y,z,w) : volume décrit par x,y,z,w
+moy la moyenne
+
+-Ratio des distances (hyper-arêtes H de cardinal 2):
+e1 = moy_{H=(x,y)}(min(d(x,y)/d(px,py), d(px,py)/d(x,y)))
+
+-Ratio des surfaces (hyper-arêtes H de cardinal 3):
+e2 = moy_{H=(x,y,z)}(min(s(x,y,z)/s(px,py,pz), s(px,py,pz)/s(x,y,z)))
+
+-Ratio des volumes (hyper-arêtes H de cardinal 4):
+e3 = moy_{H=(x,y,z,w)}(min(v(x,y,z,w)/v(px,py,pz,pw), v(px,py,pz,pw)/v(x,y,z,w)))
+
+-Fusion de points :
+e4 = 1/(1+N) avec N = 1/2 * card({x,y} / x!=y et px=py )

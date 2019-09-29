@@ -1,0 +1,250 @@
+# depslib dependency file v1.0
+1463835229 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	"fichiers.h"
+	"maxcut.h"
+	"simple.h"
+	"perspective.h"
+	"fjlt.h"
+
+1463758581 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/fichiers.cpp
+	"fichiers.h"
+
+1463758340 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/fichiers.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	"Donnees.h"
+
+1463835244 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/fjlt.cpp
+	"fjlt.h"
+
+1463834122 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/fjlt.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_rng.h>
+	<gsl/gsl_randist.h>
+	<gsl/gsl_sf_pow_int.h>
+	<gsl/gsl_sf_log.h>
+	<gsl/gsl_matrix.h>
+	<gsl/gsl_blas.h>
+	"Donnees.h"
+
+1462982510 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/Donnees.h
+	<iostream>
+	<cmath>
+
+1463326917 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/simple.cpp
+	"simple.h"
+
+1460546613 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/simple.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"Donnees.h"
+
+1460549816 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/perspective.cpp
+	"perspective.h"
+
+1460549711 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/perspective.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"Donnees.h"
+
+1463055952 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/Donnees.cpp
+	"Donnees.h"
+
+1463748717 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/maxcut.cpp
+	"maxcut.h"
+
+1463748646 /home/olivier/Documents/Ecole/PREPA-3/TIPE/tipe/maxcut.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_blas.h>
+	"Donnees.h"
+
+1463055952 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/Donnees.cpp
+	"Donnees.h"
+
+1462982510 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/Donnees.h
+	<iostream>
+	<cmath>
+
+1463758581 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/fichiers.cpp
+	"fichiers.h"
+
+1463758340 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/fichiers.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	"Donnees.h"
+
+1463835244 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/fjlt.cpp
+	"fjlt.h"
+
+1463834122 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/fjlt.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_rng.h>
+	<gsl/gsl_randist.h>
+	<gsl/gsl_sf_pow_int.h>
+	<gsl/gsl_sf_log.h>
+	<gsl/gsl_matrix.h>
+	<gsl/gsl_blas.h>
+	"Donnees.h"
+
+1463838271 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	"fichiers.h"
+	"maxcut.h"
+	"simple.h"
+	"perspective.h"
+	"fjlt.h"
+
+1463748646 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/maxcut.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_blas.h>
+	"Donnees.h"
+
+1460546613 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/simple.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"Donnees.h"
+
+1460549711 /home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/perspective.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"Donnees.h"
+
+1463748717 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/maxcut.cpp
+	"maxcut.h"
+
+1460549816 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/perspective.cpp
+	"perspective.h"
+
+1463326917 source:/home/olivier/Documents/Ecole/PREPA-3/TIPE/programmes/tipe/simple.cpp
+	"simple.h"
+
+1464455920 source:/home/olivier/programmes/erreur/Donnees.cpp
+	"Donnees.h"
+
+1464455920 /home/olivier/programmes/erreur/Donnees.h
+	<iostream>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_blas.h>
+
+1464368724 source:/home/olivier/programmes/erreur/fjlt.cpp
+	"fjlt.h"
+
+1464368965 /home/olivier/programmes/erreur/fjlt.h
+	<gsl/gsl_rng.h>
+	<gsl/gsl_randist.h>
+	<gsl/gsl_sf_pow_int.h>
+	<gsl/gsl_sf_log.h>
+	"Donnees.h"
+
+1464368635 source:/home/olivier/programmes/erreur/maxcut.cpp
+	"maxcut.h"
+
+1464368965 /home/olivier/programmes/erreur/maxcut.h
+	<iostream>
+	"Donnees.h"
+
+1464453539 source:/home/olivier/programmes/erreur/fichiers.cpp
+	"fichiers.h"
+
+1464359973 /home/olivier/programmes/erreur/fichiers.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	"Donnees.h"
+
+1464456029 source:/home/olivier/programmes/erreur/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	"fichiers.h"
+
+1464453539 source:/home/olivier/programmes/rotation/fichiers.cpp
+	"fichiers.h"
+
+1464359973 /home/olivier/programmes/rotation/fichiers.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	"Donnees.h"
+
+1465560936 /home/olivier/programmes/rotation/Donnees.h
+	<iostream>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<gsl/gsl_blas.h>
+
+1465561828 source:/home/olivier/programmes/rotation/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	"fichiers.h"
+
+1465657282 source:/home/olivier/programmes/rotation/Donnees.cpp
+	"Donnees.h"
+
+1464453539 source:/home/olivier/programmes/aretes/fichiers.cpp
+	"fichiers.h"
+
+1464359973 /home/olivier/programmes/aretes/fichiers.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	"Donnees.h"
+
+1466254703 /home/olivier/programmes/aretes/Donnees.h
+	<iostream>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+
+1466254666 source:/home/olivier/programmes/aretes/Donnees.cpp
+	"Donnees.h"
+
+1466254677 source:/home/olivier/programmes/aretes/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	"fichiers.h"
+

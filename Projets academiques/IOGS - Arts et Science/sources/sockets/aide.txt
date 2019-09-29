@@ -1,0 +1,18 @@
+g++ server.c -o server
+g++ client.c -o client
+
+./server 51717
+./client laptop-olivier 51717
+
+Le nom est dans /etc/hostname
+
+
+Obtenir adresse ip
+hostname -I
+./server 51717
+./client 172.17.6.104 51717
+
+g++ sockets/PC.c -o sockets/PC; ./sockets/PC 169.254.189.26 51717
+
+sudo ifconfig eth0 169.254.189.27 netmask 255.255.255.0
+

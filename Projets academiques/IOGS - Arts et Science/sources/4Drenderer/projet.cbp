@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libgsl.a" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libgslcblas.a" />
+			<Add library="SDL_mixer" />
+		</Linker>
+		<Unit filename="Donnees.cpp" />
+		<Unit filename="Donnees.h" />
+		<Unit filename="Input.cpp" />
+		<Unit filename="Input.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="fichiers.cpp" />
+		<Unit filename="fichiers.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="perspective.cpp" />
+		<Unit filename="perspective.h" />
+		<Unit filename="simple.cpp" />
+		<Unit filename="simple.h" />
+		<Unit filename="tracer.cpp" />
+		<Unit filename="tracer.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

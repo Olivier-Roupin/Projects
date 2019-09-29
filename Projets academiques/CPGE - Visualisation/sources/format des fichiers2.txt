@@ -1,0 +1,7 @@
+fichier entrée:
+dimension entrée	nombre de sommets
+coordonnées sommets
+...
+nombre d'hyperarêtes
+(arêtes,surfaces,volumes)=hyperarêtes : cardinal, points
+...

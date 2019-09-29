@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\utilisateur\downloads\ovr_sdk_win_1.30.0_public\samples\protocoles\oculusroomtiny (gl)\../Win32_GLAppUtil2.h(740): warning C4838: la conversion de 'int' en 'GLushort' requiert une conversion restrictive
+c:\users\utilisateur\downloads\ovr_sdk_win_1.30.0_public\samples\protocoles\oculusroomtiny (gl)\../Win32_GLAppUtil2.h(999): warning C4100: 'includeIntensiveGPUobject' : paramètre formel non référencé
+c:\users\utilisateur\downloads\ovr_sdk_win_1.30.0_public\samples\protocoles\oculusroomtiny (gl)\../Chrono.h(121): warning C4100: 'hour' : paramètre formel non référencé
+..\..\..\main.cpp(387): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+..\..\..\main.cpp(409): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+..\..\..\main.cpp(417): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+..\..\..\main.cpp(463): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+  Génération de code en cours
+  Fin de la génération du code
+  OculusRoomTiny (GL).vcxproj -> C:\Users\utilisateur\Downloads\ovr_sdk_win_1.30.0_public\Samples\Protocoles\OculusRoomTiny (GL)\Projects\Windows\VS2017\..\..\..\Bin\Windows\Win32\Release\VS2017\OculusRoomTiny (GL).exe

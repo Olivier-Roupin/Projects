@@ -1,0 +1,1 @@
+Un hypercube de dimension X, centré sur 0 (coordonnées des points +/-1)
