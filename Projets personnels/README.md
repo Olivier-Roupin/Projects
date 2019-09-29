@@ -1,9 +1,5 @@
-# Projets
-## Projets academiques
-Projets conduits pendant ma formation à l'IOGS et en CPGE.
-## Segula Technologies - Stage ingénieur 2e année
-Application de réalité augmentée développée pour tester le kit de developpement ARKit.
-## Osaka University - Stage de fin d'études
-Mesure et simulation de l'apparence de matériaux dentaires.
-## Projets personnels
-Prototypes de jeux développés en C++ et OpenGL 
+# Projets personnels
+## 4DLabyrinth
+Logiciel d'exploration d'un labyrithe en 4D (*GSL* et *OpenGL*) (les touches directionnelles tournent la caméra, Z-Q-S-D translatent la caméra, PgUp-PgDown font une rotation dans la 4e dimension).
+## RPG
+Prototype de RPG en 2D (*SDL*)
