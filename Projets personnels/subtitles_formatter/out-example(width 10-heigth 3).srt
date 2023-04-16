@@ -1,0 +1,433 @@
+1
+00:00:03,400 --> 00:00:06,177
+In this
+lesson,
+we're
+
+2
+00:00:03,400 --> 00:00:06,177
+going to
+be
+talking
+
+3
+00:00:03,400 --> 00:00:06,177
+about
+finance.
+And
+
+4
+00:00:06,177 --> 00:00:10,009
+one of
+the most
+important
+
+5
+00:00:06,177 --> 00:00:10,009
+aspects
+of
+finance is
+
+6
+00:00:06,177 --> 00:00:10,009
+interest.
+
+7
+00:00:10,009 --> 00:00:13,655
+When I go
+to a bank
+or some
+
+8
+00:00:10,009 --> 00:00:13,655
+other
+lending
+institution
+
+9
+00:00:13,655 --> 00:00:17,720
+to borrow
+money, the
+bank is
+
+10
+00:00:13,655 --> 00:00:17,720
+happy
+to give
+me that
+
+11
+00:00:13,655 --> 00:00:17,720
+money. But
+then I'm
+
+12
+00:00:17,900 --> 00:00:21,480
+going to
+be paying
+the bank
+
+13
+00:00:17,900 --> 00:00:21,480
+for the
+privilege
+of using
+
+14
+00:00:17,900 --> 00:00:21,480
+their
+money. And
+that
+
+15
+00:00:21,660 --> 00:00:26,440
+amount of
+money that
+I pay the
+
+16
+00:00:21,660 --> 00:00:26,440
+bank is
+called
+interest.
+
+17
+00:00:21,660 --> 00:00:26,440
+Likewise,
+if I put
+money
+
+18
+00:00:26,620 --> 00:00:31,220
+in a
+savings
+account or
+
+19
+00:00:26,620 --> 00:00:31,220
+I purchase
+a
+
+
+20
+00:00:26,620 --> 00:00:31,220
+certificate
+of
+deposit,
+
+21
+00:00:26,620 --> 00:00:31,220
+the bank
+just
+
+22
+00:00:31,300 --> 00:00:35,800
+doesn't
+put my
+money in a
+
+23
+00:00:31,300 --> 00:00:35,800
+little box
+and leave
+it there
+
+24
+00:00:31,300 --> 00:00:35,800
+until
+later.
+They take
+
+25
+00:00:35,800 --> 00:00:40,822
+my money
+and lend
+it to
+
+26
+00:00:35,800 --> 00:00:40,822
+someone
+else. So
+they are
+
+27
+00:00:35,800 --> 00:00:40,822
+using my
+money.
+
+28
+00:00:40,822 --> 00:00:44,400
+The bank
+has to pay
+me for the
+
+29
+00:00:40,822 --> 00:00:44,400
+privilege
+of using
+my money.
+
+30
+00:00:44,400 --> 00:00:48,700
+Now what
+makes
+banks
+
+31
+00:00:44,400 --> 00:00:48,700
+
+profitable
+is the
+
+32
+00:00:44,400 --> 00:00:48,700
+rate
+
+33
+00:00:48,700 --> 00:00:53,330
+that they
+charge
+people to
+
+34
+00:00:48,700 --> 00:00:53,330
+use the
+bank's
+money is
+
+35
+00:00:48,700 --> 00:00:53,330
+higher
+than the
+rate that
+
+36
+00:00:48,700 --> 00:00:53,330
+they
+
+37
+00:00:53,510 --> 00:01:00,720
+pay
+people
+like me to
+
+38
+00:00:53,510 --> 00:01:00,720
+use my
+money. The
+amount of
+
+39
+00:00:53,510 --> 00:01:00,720
+interest
+that a
+person
+
+40
+00:00:53,510 --> 00:01:00,720
+pays or
+
+41
+00:01:00,800 --> 00:01:06,640
+earns is
+dependent
+on three
+
+42
+00:01:00,800 --> 00:01:06,640
+things.
+It's
+dependent
+
+43
+00:01:00,800 --> 00:01:06,640
+on how
+much money
+is
+
+44
+00:01:00,800 --> 00:01:06,640
+involved.
+
+45
+00:01:06,820 --> 00:01:11,300
+It's
+dependent
+upon the
+
+46
+00:01:06,820 --> 00:01:11,300
+rate of
+interest
+being
+
+47
+00:01:06,820 --> 00:01:11,300
+paid or
+the rate
+of
+
+48
+00:01:06,820 --> 00:01:11,300
+interest
+being
+
+49
+00:01:11,480 --> 00:01:17,898
+charged.
+And it's
+also
+
+50
+00:01:11,480 --> 00:01:17,898
+dependent
+upon
+how much
+
+51
+00:01:11,480 --> 00:01:17,898
+time is
+involved.
+If I have
+
+52
+00:01:17,898 --> 00:01:22,730
+a loan
+and I want
+to
+
+53
+00:01:17,898 --> 00:01:22,730
+decrease
+the amount
+of
+
+54
+00:01:17,898 --> 00:01:22,730
+interest
+that I'm
+going to
+
+55
+00:01:17,898 --> 00:01:22,730
+pay, then
+
+56
+00:01:22,800 --> 00:01:28,040
+I'm
+either
+going to
+
+57
+00:01:22,800 --> 00:01:28,040
+have to
+decrease
+how
+
+58
+00:01:22,800 --> 00:01:28,040
+much
+money I
+borrow,
+
+59
+00:01:22,800 --> 00:01:28,040
+I'm going
+to have
+
+60
+00:01:28,220 --> 00:01:32,420
+to borrow
+the money
+over a
+
+61
+00:01:28,220 --> 00:01:32,420
+shorter
+period
+of time,
+
+62
+00:01:28,220 --> 00:01:32,420
+or I'm
+going to
+have to
+
+63
+00:01:28,220 --> 00:01:32,420
+find a
+
+64
+00:01:32,600 --> 00:01:37,279
+lending
+institution
+that
+
+65
+00:01:32,600 --> 00:01:37,279
+charges a
+lower
+interest
+
+66
+00:01:32,600 --> 00:01:37,279
+rate. On
+the other
+hand, if I
+
+67
+00:01:37,279 --> 00:01:41,480
+want to
+earn more
+interest
+
+68
+00:01:37,279 --> 00:01:41,480
+on my
+
+investment,
+
+69
+00:01:37,279 --> 00:01:41,480
+I'm going
+to have to
+invest
+
+70
+00:01:41,480 --> 00:01:46,860
+more
+money,
+leave the
+
+71
+00:01:41,480 --> 00:01:46,860
+money in
+the
+account
+
+72
+00:01:41,480 --> 00:01:46,860
+for a
+longer
+period of
+
+73
+00:01:41,480 --> 00:01:46,860
+time, or
+
+74
+00:01:46,860 --> 00:01:49,970
+find an
+institution
+that will
+
+75
+00:01:46,860 --> 00:01:49,970
+pay
+me a
+higher
+
+76
+00:01:46,860 --> 00:01:49,970
+interest
+rate.
