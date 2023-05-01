@@ -1,0 +1,6 @@
+[submodule "InterDigital - Thèse de doctorat/GraphBasedSceneRegistration"]
+	path = InterDigital - Thèse de doctorat/GraphBasedSceneRegistration
+	url = https://github.com/InterDigitalInc/GraphBasedSceneRegistration
+[submodule "InterDigital - Thèse de doctorat/ObjectRemovalDetection"]
+	path = InterDigital - Thèse de doctorat/ObjectRemovalDetection
+	url = https://github.com/InterDigitalInc/ObjectRemovalDetection

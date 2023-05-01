@@ -20,7 +20,7 @@ From emulation                |  From `jack_capture_video`
 :----------------------------:|:-------------------------
 <img src="out/composite-in.gif" width="320" height="256"/> | <img src="out/composite-out.gif" width="320" height="256"/>
 
-In composite mode, the temporal resolution is to low to capture the color (only the luminance is "decoded"). Here is a couple of recordings of an RGB signal in 3 passes to produce a full color frame (channels are manually merged):
+In composite mode, the temporal resolution is too low to capture the color (only the luminance is "decoded"). Here is a couple of recordings of an RGB signal in 3 passes to produce a full color frame (channels are manually merged):
 
 From emulation                |  From `jack_capture_video`
 :----------------------------:|:-------------------------
