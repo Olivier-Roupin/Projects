@@ -1,0 +1,3 @@
+// the configured options and settings for JeuOne
+#define JeuOne_VERSION_MAJOR @JeuOne_VERSION_MAJOR@
+#define JeuOne_VERSION_MINOR @JeuOne_VERSION_MINOR@

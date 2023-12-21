@@ -1,13 +1,11 @@
+#include "mainwindow.h"
 #include <QApplication>
-#include <QtWidgets>
-#include "FenPrincipale.h"
 
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
 
-    FenPrincipale fenetre;
-    fenetre.show();
-
-    return app.exec();
+    return a.exec();
 }

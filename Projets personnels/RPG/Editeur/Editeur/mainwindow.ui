@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editeur de JeuOne</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_alterations">
+       <attribute name="title">
+        <string>Altérations</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <layout class="QVBoxLayout" name="alteration_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="alteration_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="alteration_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="alteration_spinBox"/>
+            </item>
+            <item>
+             <spacer name="alteration_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="alteration_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="alteration_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="alteration_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="alteration_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="alteration_gridLayout">
+            <item row="0" column="3">
+             <widget class="QCheckBox" name="alteration_postcombat_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="alteration_priorite_label">
+              <property name="text">
+               <string>Priorité :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QCheckBox" name="alteration_postdeces_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="alteration_id_spinBox"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="alteration_postcombat_label">
+              <property name="text">
+               <string>Post combat :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="alteration_id_label">
+              <property name="text">
+               <string>Id script :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="alteration_postdeces_label">
+              <property name="text">
+               <string>Post décès :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="alteration_priorite_spinBox"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="alteration_id_terrain_label">
+              <property name="text">
+               <string>Id script terrain :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="alteration_id_terrain_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="alteration_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="alteration_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="alteration_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_capacites">
+       <attribute name="title">
+        <string>Capacités</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <layout class="QVBoxLayout" name="capacite_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="capacite_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="capacite_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="capacite_spinBox"/>
+            </item>
+            <item>
+             <spacer name="capacite_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="capacite_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="capacite_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="capacite_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="capacite_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="capacite_description_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="capacite_description_label">
+              <property name="text">
+               <string>Description :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="capacite_description_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="capacite_gridLayout">
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="capacite_coutmagie_spinBox"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="capacite_coutvie_label">
+              <property name="text">
+               <string>Coût vie :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="capacite_coutmagiep_label">
+              <property name="text">
+               <string>Coût magie % :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="capacite_coutvie_spinBox"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="capacite_coutmagie_label">
+              <property name="text">
+               <string>Coût magie :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="capacite_coutviep_label">
+              <property name="text">
+               <string>Coût vie % :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="capacite_id_label">
+              <property name="text">
+               <string>Id effet :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QSpinBox" name="capacite_coutmagiep_spinBox">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QSpinBox" name="capacite_coutviep_spinBox">
+              <property name="maximum">
+               <number>100</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="capacite_id_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="capacite_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="capacite_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="capacite_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_cartes">
+       <attribute name="title">
+        <string>Cartes</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <layout class="QVBoxLayout" name="carte_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="carte_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="carte_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="carte_spinBox"/>
+            </item>
+            <item>
+             <spacer name="carte_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="carte_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="carte_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="carte_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="carte_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="carte_fond_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="carte_fond_label">
+              <property name="text">
+               <string>Fond :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="carte_fond_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="carte_gridLayout">
+            <item row="0" column="2">
+             <widget class="QLabel" name="carte_hauteur_label">
+              <property name="text">
+               <string>Hauteur :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QSpinBox" name="carte_hauteur_spinBox"/>
+            </item>
+            <item row="1" column="3">
+             <widget class="QSpinBox" name="carte_tileset_spinBox">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="carte_repetition_label">
+              <property name="text">
+               <string>Répétition :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="carte_tileset_label">
+              <property name="text">
+               <string>Id tileset :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="carte_largeur_label">
+              <property name="text">
+               <string>Largeur :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QCheckBox" name="carte_repetition_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="carte_largeur_spinBox"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="carte_nombre_label">
+              <property name="text">
+               <string>Nombre événements : </string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLabel" name="carte_nombrerencontres_label">
+              <property name="text">
+               <string>Nombre rencontres :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="carte_nombre_spinBox"/>
+            </item>
+            <item row="2" column="3">
+             <widget class="QSpinBox" name="carte_nombrerencontres_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="carte_evenement_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="carte_evenement_label">
+              <property name="text">
+               <string>Evénement :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="carte_evenement_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="carte_x_label">
+              <property name="text">
+               <string>X :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="carte_x_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="carte_y_label">
+              <property name="text">
+               <string>Y :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="carte_y_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="carte_z_label">
+              <property name="text">
+               <string>Z :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="carte_z_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="carte_traversable_label">
+              <property name="text">
+               <string>Traversable :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="carte_traversable_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="carte_evenement_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="carte_groupe_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="carte_nombregroupes_label">
+              <property name="text">
+               <string>Nombre groupes :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="carte_nombregroupes_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="carte_groupe_label">
+              <property name="text">
+               <string>Groupe :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="carte_groupe_comboBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="carte_rencontre_horizontalLayout">
+            <item>
+             <widget class="QListWidget" name="carte_rencontre_listWidget"/>
+            </item>
+            <item>
+             <widget class="QListWidget" name="carte_groupe_listWidget"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="carte_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="carte_tiles_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="carte_couches_horizontalLayout">
+            <item>
+             <widget class="QPushButton" name="carte_bas_pushButton">
+              <property name="text">
+               <string>Bas</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="carte_moyen_pushButton">
+              <property name="text">
+               <string>Moyen</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="carte_haut_pushButton">
+              <property name="text">
+               <string>Haut</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="carte_evenements_pushButton">
+              <property name="text">
+               <string>Evénements</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="carte_rencontres_pushButton">
+              <property name="text">
+               <string>Rencontres</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QGraphicsView" name="carte_graphicsView"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="carte_tiles_label">
+            <property name="text">
+             <string>Tuiles :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="carte_tileset_listWidget"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="carte_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="carte_label">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>500</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_effets">
+       <attribute name="title">
+        <string>Effets</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <layout class="QVBoxLayout" name="effet_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="effet_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="effet_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="effet_spinBox"/>
+            </item>
+            <item>
+             <spacer name="effet_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="effet_verticalLayout">
+          <item>
+           <layout class="QGridLayout" name="effet_gridLayout">
+            <item row="0" column="2">
+             <widget class="QLabel" name="effet_element_label">
+              <property name="text">
+               <string>Elément :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="effet_disponibilite_label">
+              <property name="text">
+               <string>Disponibilité :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="effet_choixcible_label">
+              <property name="text">
+               <string>Choix cible :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="effet_choixfaction_label">
+              <property name="text">
+               <string>Choix faction :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="effet_script_spinBox"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLabel" name="effet_defautfaction_label">
+              <property name="text">
+               <string>Faction défaut :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="effet_defautcible_label">
+              <property name="text">
+               <string>Cible défaut :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="effet_script_label">
+              <property name="text">
+               <string>Id script :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="effet_choixquantite_label">
+              <property name="text">
+               <string>Choix quantité :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QSpinBox" name="effet_element_spinBox"/>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="effet_defautquantite_label">
+              <property name="text">
+               <string>Quantité défaut :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QComboBox" name="effet_disponibilite_comboBox">
+              <item>
+               <property name="text">
+                <string>Toujours</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Combat</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Menu</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QCheckBox" name="effet_choixcible_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QCheckBox" name="effet_choixfaction_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="QCheckBox" name="effet_choixquantite_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="QComboBox" name="effet_defautquantite_comboBox">
+              <item>
+               <property name="text">
+                <string>Unique</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Multiple</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QComboBox" name="effet_defautfaction_comboBox">
+              <item>
+               <property name="text">
+                <string>Lanceur</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Adverse</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="effet_defautcible_comboBox">
+              <item>
+               <property name="text">
+                <string>Indice 0</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Lanceur</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Tous</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Aucune</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="effet_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="effet_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="effet_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_evenements">
+       <attribute name="title">
+        <string>Evénements</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <layout class="QVBoxLayout" name="evenement_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="evenement_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="evenement_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="evenement_spinBox"/>
+            </item>
+            <item>
+             <spacer name="evenement_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="evenement_verticalLayout">
+          <item>
+           <layout class="QGridLayout" name="evenement_gridLayout">
+            <item row="1" column="0">
+             <widget class="QLabel" name="evenement_nombre_label">
+              <property name="text">
+               <string>Nombre scripts :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="evenement_image_lineEdit"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="evenement_image_label">
+              <property name="text">
+               <string>Image :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="evenement_nombre_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="evenement_script_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="evenement_script_label">
+              <property name="text">
+               <string>Id script :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="evenement_script_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="evenement_script_listWidget"/>
+          </item>
+          <item>
+           <spacer name="evenement_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="evenement_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="evenement_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_groupesmonstres">
+       <attribute name="title">
+        <string>Groupes de monstres</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <layout class="QVBoxLayout" name="groupesmonstre_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="groupesmonstre_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="groupesmonstre_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="groupesmonstre_spinBox"/>
+            </item>
+            <item>
+             <spacer name="groupesmonstre_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="groupesmonstre_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="groupesmonstre_nombre_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="groupesmonstre_nombre_label">
+              <property name="text">
+               <string>Nombre monstres :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="groupesmonstre_nombre_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="groupesmonstre_monstre_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="groupesmonstre_monstre_label">
+              <property name="text">
+               <string>Monstre :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="groupesmonstre_monstre_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="groupesmonstre_x_label">
+              <property name="text">
+               <string>X :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="groupesmonstre_x_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="groupesmonstre_y_label">
+              <property name="text">
+               <string>Y :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="groupesmonstre_y_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="groupesmonstre_monstre_listWidget"/>
+          </item>
+          <item>
+           <spacer name="groupesmonstre_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="groupesmonstre_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="groupesmonstre_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_heros">
+       <attribute name="title">
+        <string>Héros</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="heros_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="heros_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="heros_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="heros_spinBox">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="heros_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="heros_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="heros_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="heros_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="heros_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="heros_vie_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="heros_vie_label">
+              <property name="text">
+               <string>Vie :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="heros_vie_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="heros_magie_label">
+              <property name="text">
+               <string>Magie :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="heros_magie_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="heros_gridLayout">
+            <item row="1" column="2">
+             <widget class="QLabel" name="heros_atm_label">
+              <property name="text">
+               <string>Attaque magique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="heros_viem_spinBox"/>
+            </item>
+            <item row="2" column="3">
+             <widget class="QSpinBox" name="heros_pre_spinBox"/>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="heros_esq_label">
+              <property name="text">
+               <string>Esquive :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QSpinBox" name="heros_atm_spinBox"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="heros_vit_spinBox"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="heros_vit_label">
+              <property name="text">
+               <string>Vitesse :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLabel" name="heros_pre_label">
+              <property name="text">
+               <string>Précision :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="heros_dep_label">
+              <property name="text">
+               <string>Défense physique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="heros_magiem_label">
+              <property name="text">
+               <string>Magie max :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="heros_magiem_spinBox"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QSpinBox" name="heros_atp_spinBox"/>
+            </item>
+            <item row="0" column="5">
+             <widget class="QSpinBox" name="heros_dep_spinBox"/>
+            </item>
+            <item row="1" column="5">
+             <widget class="QSpinBox" name="heros_dem_spinBox"/>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="heros_dem_label">
+              <property name="text">
+               <string>Défense magique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="heros_viem_label">
+              <property name="text">
+               <string>Vie max :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="QSpinBox" name="heros_esq_spinBox"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="heros_atp_label">
+              <property name="text">
+               <string>Attaque physique :</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="heros_status_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="heros_status_label">
+              <property name="text">
+               <string>Status :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="heros_status_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="heros_exp_label">
+              <property name="text">
+               <string>Expérience :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="heros_exp_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="heros_niv_label">
+              <property name="text">
+               <string>Niveau :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="heros_niv_spinBox">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="heros_equipement_gridLayout">
+            <item row="1" column="0">
+             <widget class="QLabel" name="heros_maingauche_label">
+              <property name="text">
+               <string>Main gauche :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="heros_armure_label">
+              <property name="text">
+               <string>Armure :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="heros_casque_label">
+              <property name="text">
+               <string>Casque :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="heros_accessoire1_label">
+              <property name="text">
+               <string>Accessoire 1 :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="heros_maindroite_label">
+              <property name="text">
+               <string>Main droite :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="heros_accessoire2_label">
+              <property name="text">
+               <string>Accessoire 2 :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="heros_maindroite_comboBox"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="heros_maingauche_comboBox"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="heros_casque_comboBox"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QComboBox" name="heros_armure_comboBox"/>
+            </item>
+            <item row="4" column="1">
+             <widget class="QComboBox" name="heros_accessoire1_comboBox"/>
+            </item>
+            <item row="5" column="1">
+             <widget class="QComboBox" name="heros_accessoire2_comboBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="heros_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="heros_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="heros_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_magasins">
+       <attribute name="title">
+        <string>Magasins</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <layout class="QVBoxLayout" name="magasin_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="magasin_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="magasin_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="magasin_spinBox"/>
+            </item>
+            <item>
+             <spacer name="magasin_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="magasin_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="magasin_nombre_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="magasin_nombre_label">
+              <property name="text">
+               <string>Nombre objets :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="magasin_nombre_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="magasin_objet_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="magasin_objet_label">
+              <property name="text">
+               <string>Objet :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="magasin_objet_comboBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="magasin_objet_listWidget"/>
+          </item>
+          <item>
+           <spacer name="magasin_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="magasin_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="magasin_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_monstres">
+       <attribute name="title">
+        <string>Monstres</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <layout class="QVBoxLayout" name="monstre_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="monstre_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="monstre_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="monstre_spinBox"/>
+            </item>
+            <item>
+             <spacer name="monstre_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="monstre_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="monstre_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="monstre_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="monstre_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="monstre_script_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="monstre_vie_label">
+              <property name="text">
+               <string>Vie :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_vie_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_magie_label">
+              <property name="text">
+               <string>Magie :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_magie_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_script_label">
+              <property name="text">
+               <string>Id script :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_script_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="monstre_gridLayout">
+            <item row="2" column="2">
+             <widget class="QLabel" name="monstre_pre_label">
+              <property name="text">
+               <string>Précision :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="monstre_esq_label">
+              <property name="text">
+               <string>Esquive :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="monstre_dep_label">
+              <property name="text">
+               <string>Défense physique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QSpinBox" name="monstre_atm_spinBox"/>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="monstre_viem_spinBox"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QSpinBox" name="monstre_atp_spinBox"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="monstre_vit_spinBox"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="monstre_magiem_spinBox"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="monstre_atp_label">
+              <property name="text">
+               <string>Attaque physique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="monstre_dem_label">
+              <property name="text">
+               <string>Défense magique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="monstre_vit_label">
+              <property name="text">
+               <string>Vitesse :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QSpinBox" name="monstre_pre_spinBox"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="monstre_viem_label">
+              <property name="text">
+               <string>Vie max :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="monstre_magiem_label">
+              <property name="text">
+               <string>Magie max :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="monstre_atm_label">
+              <property name="text">
+               <string>Attaque magique :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QSpinBox" name="monstre_dep_spinBox"/>
+            </item>
+            <item row="1" column="5">
+             <widget class="QSpinBox" name="monstre_dem_spinBox"/>
+            </item>
+            <item row="2" column="5">
+             <widget class="QSpinBox" name="monstre_esq_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="monstre_status_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="monstre_status_label">
+              <property name="text">
+               <string>Status :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="monstre_status_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_exp_label">
+              <property name="text">
+               <string>Expérience :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_exp_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_niv_label">
+              <property name="text">
+               <string>Niveau :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_niv_spinBox">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="monstre_butin_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="monstre_butin_label">
+              <property name="text">
+               <string>Butin :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="monstre_butin_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_objet_label">
+              <property name="text">
+               <string>Objet porté :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="monstre_objet_comboBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_or_label">
+              <property name="text">
+               <string>Or :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_or_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="monstre_elements_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="monstre_element_atk_label">
+              <property name="text">
+               <string>Elément attaque :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_element_atk_spinBox"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="monstre_element_def_label">
+              <property name="text">
+               <string>Elément défense :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="monstre_element_def_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="monstre_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="monstre_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="monstre_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_objets">
+       <attribute name="title">
+        <string>Objets</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="objet_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="objet_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="objet_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="objet_spinBox"/>
+            </item>
+            <item>
+             <spacer name="objet_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="objet_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="objet_nom_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="objet_nom_label">
+              <property name="text">
+               <string>Nom :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="objet_nom_lineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="objet_gridLayout">
+            <item row="2" column="0">
+             <widget class="QLabel" name="objet_description_label">
+              <property name="text">
+               <string>Description :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="objet_prix_label">
+              <property name="text">
+               <string>Prix :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="objet_prix_spinBox">
+              <property name="maximum">
+               <number>10000</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="objet_type_comboBox">
+              <property name="currentText">
+               <string>Utilisable</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Utilisable</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Equipable - Arme</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Equipable - Bouclier</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Equipable - Casque</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Equipable - Armure</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Equipable - Accessoire</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="objet_description_lineEdit"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="objet_type_label">
+              <property name="text">
+               <string>Type :</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="objet_stackedWidget">
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="utilisable_page">
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="0" column="1">
+               <widget class="QCheckBox" name="objet_illimite_checkBox">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <spacer name="utilisable_verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="objet_effet_label">
+                <property name="text">
+                 <string>Effet :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSpinBox" name="objet_effet_spinBox"/>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="objet_illimite_label">
+                <property name="text">
+                 <string>Illimité :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="utilisable_horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="equipable_page">
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="2" column="2">
+               <widget class="QLabel" name="objet_pre_label">
+                <property name="text">
+                 <string>Précision :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="5">
+               <widget class="QSpinBox" name="objet_dem_spinBox"/>
+              </item>
+              <item row="1" column="3">
+               <widget class="QSpinBox" name="objet_atm_spinBox"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="objet_mag_label">
+                <property name="text">
+                 <string>Magie max :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSpinBox" name="objet_mag_spinBox"/>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSpinBox" name="objet_vit_spinBox"/>
+              </item>
+              <item row="0" column="4">
+               <widget class="QLabel" name="objet_dep_label">
+                <property name="text">
+                 <string>Défense physique :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QLabel" name="objet_atp_label">
+                <property name="text">
+                 <string>Attaque physique :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <spacer name="equipable_verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="3">
+               <widget class="QSpinBox" name="objet_atp_spinBox"/>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="objet_vie_label">
+                <property name="text">
+                 <string>Vie max :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="objet_vit_label">
+                <property name="text">
+                 <string>Vitesse :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4">
+               <widget class="QLabel" name="objet_esq_label">
+                <property name="text">
+                 <string>Esquive :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="5">
+               <widget class="QSpinBox" name="objet_dep_spinBox"/>
+              </item>
+              <item row="2" column="5">
+               <widget class="QSpinBox" name="objet_esq_spinBox"/>
+              </item>
+              <item row="2" column="3">
+               <widget class="QSpinBox" name="objet_pre_spinBox"/>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="objet_atm_label">
+                <property name="text">
+                 <string>Attaque magique :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSpinBox" name="objet_vie_spinBox"/>
+              </item>
+              <item row="1" column="4">
+               <widget class="QLabel" name="objet_dem_label">
+                <property name="text">
+                 <string>Défense magique :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="objet_pds_label">
+                <property name="text">
+                 <string>Poids :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSpinBox" name="objet_pds_spinBox"/>
+              </item>
+              <item row="3" column="2">
+               <widget class="QLabel" name="objet_off_label">
+                <property name="text">
+                 <string>Ratio :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="3">
+               <widget class="QSpinBox" name="objet_off_spinBox">
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="6">
+               <spacer name="equipable_horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="3" column="4">
+               <widget class="QLabel" name="objet_element_label">
+                <property name="text">
+                 <string>Elément :</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="5">
+               <widget class="QSpinBox" name="objet_element_spinBox"/>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="objet_label">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="objet_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>106</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_tilesets">
+       <attribute name="title">
+        <string>Tilesets</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <layout class="QVBoxLayout" name="tileset_list_verticalLayout">
+          <item>
+           <widget class="QListWidget" name="tileset_listWidget"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="tileset_spinBox_horizontalLayout">
+            <item>
+             <widget class="QSpinBox" name="tileset_spinBox"/>
+            </item>
+            <item>
+             <spacer name="tileset_spinBox_horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="tileset_verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="tileset_nombre_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="tileset_nombre_label">
+              <property name="text">
+               <string>Nombre tiles :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="tileset_nombre_spinBox"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="tileset_tile_horizontalLayout">
+            <item>
+             <widget class="QLabel" name="tileset_tile_label">
+              <property name="text">
+               <string>Tile :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="tileset_tile_lineEdit">
+              <property name="maximumSize">
+               <size>
+                <width>20</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="maxLength">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tileset_traversable_label">
+              <property name="text">
+               <string>Traversable :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="tileset_traversable_checkBox">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="tileset_tile_listWidget"/>
+          </item>
+          <item>
+           <spacer name="tileset_verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="tileset_horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="tileset_label">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>985</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichiers">
+    <property name="title">
+     <string>Fichiers</string>
+    </property>
+    <addaction name="actionOuvrir"/>
+    <addaction name="actionEnregistrer"/>
+    <addaction name="actionEnregistrer_sous"/>
+    <addaction name="actionFermer"/>
+   </widget>
+   <addaction name="menuFichiers"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOuvrir">
+   <property name="text">
+    <string>Ouvrir</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer">
+   <property name="text">
+    <string>Enregistrer</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_sous">
+   <property name="text">
+    <string>Enregistrer sous ...</string>
+   </property>
+  </action>
+  <action name="actionFermer">
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,6 +1,0 @@
-3
-soin soigne_un_membre_de_l'equipe  10 0 0 0  1
-feu brule_un_ennemi  15 0 0 0  1
-demi reduit_de_moitié_les_pv_d'un_ennemi  25 0 0 0  1
-
-nom description  coutmagie coutmagiep coutvie coutviep  id_effet
